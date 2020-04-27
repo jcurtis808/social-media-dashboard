@@ -9,6 +9,7 @@
 body {
   margin: auto 0;
   background: linear-gradient(hsl(225, 100%, 98%) 33vh, hsl(0, 0%, 100%) 33vh 100vh);
+  background-position: fixed;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
