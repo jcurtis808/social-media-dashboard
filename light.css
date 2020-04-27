@@ -36,8 +36,8 @@ h1, h2, h3 {
   justify-content: space-between;
 }
 
-.title {
-  line-height: .5;
+.title h4 {
+  line-height: 0;
 }
 
 /* styling toggle button */
