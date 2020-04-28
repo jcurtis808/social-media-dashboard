@@ -188,11 +188,15 @@ p img {
 }
 
 #instagram {
-  border-top: 4px solid hsl(329, 70%, 58%);
-  position: relative;
+  border-style: none;
+  background: 
+    linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+    no-repeat
+    top / auto 5px, 
+    hsl(227, 47%, 96%);
 }
 
-#instagram::before {
+/*#instagram::before {
   content: "";
   position: absolute;
   top: -4px;
@@ -203,7 +207,7 @@ p img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   z-index: 2;
-}
+}*/
 
 #youtube {
   border-top-color: hsl(348, 97%, 39%);
